@@ -20,6 +20,7 @@ def main():
     print('Here are the details of the savings account.')
     print("The balance is: $", format(updated_savings_balance, ',.2f'))
     print(f"Interest earned for {savings_maturity} months is: $", format(interest_earned, ',.2f'))
+    print()
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     cd_balance = float(input('What is your CD account balance? '))
@@ -33,6 +34,7 @@ def main():
     print('Here are the details of the CD account.')
     print("The balance is: $", format(updated_cd_balance, ',.2f'))
     print(f"Interest earned for {cd_maturity} months is: $", format(interest_earned, ',.2f'))
+    print()
 
 if __name__ == "__main__":
     main()
